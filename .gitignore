@@ -2,6 +2,13 @@
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# file ignore here
+Gulp/gulp2/package-lock.json
+Gulp/gulp2/node_modules/*
+
+
+
 .idea/
 # User-specific stuff
 .idea/**/workspace.xml
