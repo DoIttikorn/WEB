@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>WEB 3</title>
+</head>
+<body>
+    <div class="registration-form">
+        <div class="header">
+            <button class="btn btn-tab btn-ripple active" data-target-tab="#signin">SIGN IN</button>
+            <button class="btn btn-tab btn-ripple" data-target-tab="#signup">SIGN UP</button>
+        </div>
+        <div class="container">
+            <div class="content active" id="signin">
+                <h1>Sign in to your account</h1>
+                <p class="gray">sign in to access all free resources</p>
+                <div class="flex justify-between">
+                    <button class="btn btn-oauth">
+                        <i class="fa fa-google"></i> Sign in with Google
+                    </button>
+                    <button class="btn btn-oauth">
+                        <i class="fa fa-twitter"></i> Sign in with Twitter
+                    </button>
+                </div>
+                <div class="bar"></div>
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" name="" id="name" class="input-elem" placeholder=" " autocomplete="off">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" name="" id="password" class="input-elem" placeholder=" " autocomplete="off">
+                        <label for="password">Password</label>
+                        <i class="fa fa-eye-slash eye"></i>
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" name="" id="rem_pass">
+                        <label for="rem_pass"class="gray">Remmember Password</label>
+                    </div>
+                    <button class="btn btn-register">Sign In
+                        
+                    </button>
+                    <a href="#"class="reg_link">Forgot your password?</a>
+                </form>
+            </div>
+            <div class="content" id="signup">
+                <h1>REGISTER</h1>
+                <p class="gray">your can use this account to log in to any of our products</p>
+                <div class="flex justtify-between">
+                    <button class="btn btn-oauth">
+                        <i class="fa fa-google"></i> Sign up with Google
+                    </button>
+                    <button class="btn btn-oauth">
+                        <i class="fa fa-twitter"></i> Sign up with Twitter
+                    </button>
+                </div>
+                <div class="bar"></div>
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" name="" id="name" class="input-elem" placeholder=" " autocomplete="off">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="eamil" name="" id="email" class="input-elem" placeholder=" " autocomplete="off">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" name="" id="password" class="input-elem" placeholder=" " autocomplete="off">
+                        <label for="password">Password</label>
+                        <i class="fa fa-eye-slash eye"></i>
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" name="" id="terms">
+                        <label for="terms"class="gray">Agree to our condition</label>
+                    </div>
+                    <button class="btn btn-register">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

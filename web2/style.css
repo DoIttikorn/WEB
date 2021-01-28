@@ -1,0 +1,23 @@
+.container{
+    text-align:center;
+    margin-top:20%;
+}
+button{
+    text-transform: uppercase;
+    padding:10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    font-size:18px;
+    outline: none;
+    transition: 1s;
+}
+button:hover{
+    color: white;
+    background-color: gray;
+}
+
+button:active{
+    transform: translateY(70px);
+}
