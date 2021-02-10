@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"></script>
     <title>web6</title>
 </head>
 
 <body>
     <div class="wrapper">
         <nav>
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
             <input type="checkbox" id="show-search">
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars" aria-hidden="true"></i></label>
@@ -20,16 +21,46 @@
                 <ul class="links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Fearuress</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Fearures</a>
+                        <input type="checkbox" id ="show-fearures">
+                        <label for="show-fearures">Fearures</label>
+                        <ul>
+                            <li><a href="#">Dropmenu 1</a></li>
+                            <li><a href="#">Dropmenu 2</a></li>
+                            <li><a href="#">Dropmenu 3</a></li>
+                            <li><a href="#">Dropmenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">Services</a>
+                        <input type="checkbox" id ="show-services">
+                        <label for="show-services">Services</label>
+                        <ul>
+                            <li><a href="#">Dropmenu 1</a></li>
+                            <li><a href="#">Dropmenu 2</a></li>
+                            <li><a href="#">Dropmenu 3</a></li>
+                            <li>
+                                <a href="#" class="desktop-link">More Items</a>
+                                <input type="checkbox" id ="show-items">
+                                <label for="show-items">More Items</label>
+                                <ul>
+                                    <li><a href="#">Submenu 1</a></li>
+                                    <li><a href="#">Submenu 2</a></li>
+                                    <li><a href="#">Submenu 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href="#">Facebook</a></li>
-                    
+
                 </ul>
             </div>
             <label for="show-search" class="search-icon"><i class="fas fa-search" aria-hidden="true"></i></label>
             <form action="#" class="search-box">
                 <input type="text" placeholder="Type Something to Search..." required>
-                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></button>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"
+                        aria-hidden="true"></i></button>
             </form>
         </nav>
     </div>
