@@ -90,3 +90,5 @@ fabric.properties
 # Local History for Visual Studio Code
 .history/
 
+#WEB 8
+WEB8/node_modules/
