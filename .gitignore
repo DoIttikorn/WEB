@@ -91,4 +91,4 @@ fabric.properties
 .history/
 
 #WEB 8
-WEB8/node_modules/
+node_modules/
